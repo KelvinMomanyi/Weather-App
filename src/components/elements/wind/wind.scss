@@ -1,0 +1,35 @@
+/* Styles for the .wind-container class */
+/* Set width and height to 100% to occupy the entire space */
+/* Use custom primary font */
+/* Text color */
+/* Arrange children vertically */
+/* Add padding */
+.wind-container{
+ width:100%;
+ height:100%;
+ font-family: var(--primary-font);
+ color:beige;
+ display:flex;
+ flex-direction: column;
+ padding: 20px;
+ /* Styles for the .wind-detail-elements class */
+ /* Flex container for wind detail elements */
+ /* Arrange children vertically */
+ .wind-detail-elements{
+  display: flex;
+  flex-direction: column;
+ /* Styles for the .icon class */
+ /* Set icon color to darkorange */
+ /* Add text shadow for visual effect */ 
+  .icon{
+    color: darkorange;
+    text-shadow: 0 0 5px darkorange, 0 0 10px darkorange, 0 0 15px darkorange;
+  }
+ }
+ /* Styles for the .riWindy class */
+ /* Set icon color to aqua */
+ .riWindy{
+   color:aqua
+ }
+
+}

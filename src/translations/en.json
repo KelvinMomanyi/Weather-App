@@ -1,0 +1,24 @@
+{
+    "weather.title":"TODAY'S WEATHER",
+    "country.title":"Country",
+    "location.title":"Location",
+    "date.title":"Date",
+    "sunrise.title":"Sunrise",
+    "sunset.title":"Sunset",
+    "rainfall.title":"Rainfall (1h)",
+    "cloudCover.title":"Cloud cover",
+    "fog.title":"Visibility",
+    "windDirection.title":"Wind direction",
+    "windSpeed.title":"Wind speed",
+    "temperature.title": "Temperature",
+    "maxTemperature.title":"Max Temperature",
+    "minTemperature.title":"Min Temperature",
+    "humidiy.title":"Humidity",
+    "atmosphericPressure.title":"Atmospheric Pressure",
+    "lon.title":"Longitude",
+    "lat.title":"Latitude",
+    "data.title":"Data Error",
+    "noRain.title":"No rainfall",
+    "hello":"hello"
+    
+}

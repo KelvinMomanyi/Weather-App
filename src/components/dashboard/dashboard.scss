@@ -1,0 +1,114 @@
+/* 
+   The .dash-container class styles the main container for the dashboard.
+   It occupies the full height and width of its parent container.
+   It utilizes CSS grid layout for positioning the dashboard items.
+   It defines a grid with 2 rows and 3 columns, where the first row is twice the height of the second row.
+   The gap property adds space between grid items.
+   It also specifies the grid areas for each item using grid-template-areas.
+*/
+.dash-container{
+     height: 100%;
+     width: 100%;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr); /* Equal width columns */
+    grid-template-rows: 2fr 1fr;
+    gap: 5px;
+    grid-template-areas:
+    "item1 item1 item2"
+    "item3 item4 item5";
+
+     /* 
+      Styles for the .weather-details class, which represents the weather details component.
+      It sets a border and box shadow for the component.
+      It assigns the grid area "item1" to position the component in the grid.
+      It adds border radius for rounded corners.
+     */  
+    
+    .weather-details{
+      border: 2px solid gray;
+      box-shadow: 0 0 10px gray;
+       grid-area: item1;
+       border-radius: 20px;
+    }
+
+    /* 
+      Styles for the .location-details class, which represents the location details component.
+      It sets a border and box shadow for the component.
+      It assigns the grid area "item2" to position the component in the grid.
+      It adds a linear gradient background with rounded corners.
+   */    
+    .location-details{
+        grid-area: item2;
+        border: 2px solid gray;
+        box-shadow: 0 0 10px gray;
+      /* Create a linear gradient */
+        background-origin: border-box; /* Clip the gradient to the border box */
+        background-clip: padding-box, border-box;
+        border-radius: 20px;
+    }
+   /* 
+      Styles for the .wind-details class, which represents the wind details component.
+      It sets a border and box shadow for the component.
+      It assigns the grid area "item3" to position the component in the grid.
+      It adds border radius for rounded corners.
+  */    
+    .wind-details{
+        grid-area:item3;
+        border: 2px solid gray;
+        box-shadow: 0 0 10px gray;
+        border-radius: 20px;
+    }
+   /* 
+      Styles for the .pressure-details class, which represents the pressure details component.
+      It sets a border and box shadow for the component.
+      It assigns the grid area "item4" to position the component in the grid.
+      It adds border radius for rounded corners.
+   */
+    .pressure-details{
+        grid: item4;
+        border: 2px solid gray;
+        box-shadow: 0 0 10px gray;
+        border-radius: 20px;
+    }
+   /* 
+      Styles for the .humidity-details class, which represents the humidity details component.
+      It sets a border and box shadow for the component.
+      It assigns the grid area "item5" to position the component in the grid.
+      It adds border radius for rounded corners.
+   */    
+    .humidity-details{
+        grid-area: item5;
+        border: 2px solid gray;
+        box-shadow: 0 0 10px gray;
+        border-radius: 20px;
+    }
+}
+
+/* Media queries for responsiveness */
+
+/* Media query for screens with a maximum width of 1024px */
+@media (max-width: 1024px) {
+    .dash-container {
+      grid-template-columns: repeat(2, 1fr); /* Two equal width columns */
+      grid-template-areas:
+        "item1 item1"
+        "item2 item2"
+        "item3 item4"
+        "item5 item5";
+    }
+  }
+
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    .dash-container {
+      grid-template-columns: 1fr; /* One column */
+      grid-template-rows: auto; /* Auto-sized rows */
+      grid-template-areas:
+        "item1"
+        "item2"
+        "item3"
+        "item4"
+        "item5";
+    }
+} 

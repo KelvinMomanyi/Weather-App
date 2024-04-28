@@ -1,0 +1,81 @@
+/* Styles for the .weather-container class */
+
+/* Position the container relative to its parent */
+/* Set width and height to 100% to occupy the entire space */
+/* Arrange children vertically */
+/* Add padding */
+/* Use custom primary font */
+/* Text color */
+.weather-container{
+    position: relative;
+    width:100%;
+    height:100%;
+    display: flex;
+    padding: 20px;
+    font-family: var(--primary-font);
+    color:beige;
+   /* Styles for the .weather-elements class */
+   /* Set width to 60% of the container */
+    .weather-elements{
+        width:60%;
+    }
+    /* Styles for the .weather-info class */
+    /* Flex container for weather information */
+    .weather-info{
+        display:flex; 
+    }
+    /* Styles for the .weather-element-details class */
+    /* Set width to 40% of the container */
+    /* Set height to auto to fit content */
+    /* Arrange children vertically */
+    /* Vertically center the content */
+    /* Align items to the start of the main axis */
+    /* Add left padding */
+    /* Add left border with gradient effect */
+    .weather-element-details{
+        width:40%;
+        height: auto;
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        justify-content: center; /* Vertically center the content */
+        align-items: start;  
+        padding-left: 5%;
+        border-left: 2px solid;
+        border-image: linear-gradient(to bottom, rgb(122, 122, 122), transparent) 1 100%;  
+    }
+    /* Styles for the .element-details class */
+    /* Arrange children horizontally */
+    /* Align items to the center */
+    /* Add space between children */
+    .element-details{
+        display:flex;
+        align-items: center;
+        gap:5px
+      }
+    /* Styles for the .icon class */
+   /* Set icon color to aqua */
+   /* Add text shadow for visual effect */  
+      .icon{
+        color: aqua;
+        text-shadow: 0 0 5px aqua, 0 0 10px darkorange, 0 0 15px darkorange;
+   
+      } 
+
+   }
+
+
+
+
+
+@media (max-width: 768px) {
+ .weather-container {
+      display: flex;
+      flex-direction: column;
+    }
+    .weather-elements{
+        width:100%;
+    }
+    .weather-element-details{
+        width:100%;
+    }
+}   

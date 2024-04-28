@@ -1,5 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --primary-font: 'Roboto Condensed';
+  --secondary-font: 'Oswald';
+}
+
 body {
   margin: 0;
+  padding: 0;
+  height:  auto;
+  background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./assets/weather.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(18, 18, 18);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -11,3 +25,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-position: center top /* or any other appropriate size */
+  }
+}
+

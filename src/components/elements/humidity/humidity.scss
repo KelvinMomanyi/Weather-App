@@ -1,0 +1,29 @@
+/* Styles for the .humidity-container class */
+
+/* Set width and height to 100% to occupy the entire space */
+.humidity-container{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;/* Arrange children vertically */
+    align-items: start;/* Align children to the start of the cross axis */
+    padding: 20px;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    color:beige;
+
+   /* Styles for the .humidity-container-details class */
+
+   /* Flex container for humidity details */    
+   .humidity-container-details{
+    display:flex;/* Arrange children horizontally */
+    align-items: center; /* Align children to the center of the cross axis */
+    gap: 10px;/* Add space between children */
+   } 
+   /* Styles for the .humidity-icon class */
+
+   /* Icon color for humidity */   
+   .humidity-icon{
+    color: aqua;/* Set icon color to aqua */
+   }
+}

@@ -1,0 +1,25 @@
+{
+    "weather.title":"HALI YA HEWA",
+    "country.title":"Nchi",
+    "location.title":"Eneo",
+    "date.title":"Tarehe",
+    "sunrise.title":"Macheo",
+    "sunset.title":"Machweo",
+    "rainfall.title":"Mvua (saa 1)",
+    "cloudCover.title":"Kifuniko cha Wingu",
+    "fog.title":"Uwazi wa Anga",
+    "windDirection.title":"Mwelekeo wa upepo",
+    "windSpeed.title": "Kasi ya upepo",
+    "temperature.title": "Halijoto",
+    "maxTemperature.title":"Kiwango cha juu cha Joto",
+    "minTemperature.title":"Kiwango cha chini cha Joto",
+    "humidiy.title":"Unyevunyevu",
+    "atmosphericPressure.title":"Shinikizo la anga",
+    "lon.title":"Longitudo",
+    "lat.title":"Latitudo",
+    "data.title":"Changamoto ya data",
+    "noRain.title":"Hakuna Mvua",
+    "hello":"jambo"
+
+
+}

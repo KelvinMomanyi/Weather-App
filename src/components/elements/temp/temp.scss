@@ -1,0 +1,46 @@
+/* Styles for the .temp-container class */
+
+/* Set width and height to 100% to occupy the entire space */
+/* Arrange children vertically */
+/* Add padding */
+/* Use custom primary font */
+/* Text color */
+
+.temp-container{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: var(--primary-font);
+    color:beige;
+    /* Styles for the .temp-elements-details class */
+
+    /* Set width to 40% of the container */
+    .temp-elements-details{
+        width:40%;
+    }
+    /* Styles for the .faTemp class */
+
+    /* Set stroke width for icon */
+    /* Set icon color to aqua */    
+    .faTemp{
+       stroke-width:2px ;
+        color:aqua
+      }
+
+    /* Styles for the .element-details class */
+
+    /* Set width to 60% of the container */
+    /* Arrange children vertically */
+    /* Align children to the start of the main axis */
+    /* Add space between children */ 
+    .element-details{
+        width:60%;
+        display:flex;
+        flex-direction: column;
+        align-items: start;
+        gap:5px
+      }
+
+}

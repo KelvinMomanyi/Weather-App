@@ -1,0 +1,55 @@
+/* Styles for the .app class */
+
+/* Ensure the app takes up the entire width of the viewport */
+/* Center its children vertically and horizontally */
+.app{
+  width:100% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Styles for the .main-container class */
+
+/* Ensure the main container takes up the entire width */
+/* Arrange its children vertically and horizontally */
+/* Add margin around the container */
+.main-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:20px 40px;
+  /* Styles for the .dashboard-container class */
+
+  /* Ensure the dashboard container takes up the entire width */
+  /* Apply backdrop filter for blur effect */
+  /* Set background color with transparency */
+  /* Add border radius for rounded corners */
+  .dashboard-container{
+    width:100%;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.2) ;
+    border-radius: 20px;
+  }
+
+}
+
+
+  .loader {
+    /* Center the loader vertically and horizontally */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    /* Add some styles to make it visually appealing */
+    font-size: 24px;
+    color: rgb(195, 195, 195);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+
+

@@ -1,0 +1,17 @@
+/* Styles for the .switcher-container class */
+/* Set width and height for the container */
+/* Ensure the container appears above other elements */
+.switcher-container{
+  width:25px;
+  height: 5px;
+  z-index: 999;
+  /* Styles for the select element inside .switcher-container */
+  /* Remove outline */
+  /* Set background color to gray */
+  /* Set text color to white */
+  select{
+    outline: none;
+    background-color: gray;
+    color: white;
+  }
+}
